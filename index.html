@@ -1,100 +1,103 @@
-<!-- HTML: index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>David eCom Studio</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Branqify - Build. Launch. Scale.</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="images/logo.png" alt="David eCom Studio Logo" class="logo">
-      <h1>David eCom Studio</h1>
-      <p>Shopify Designer | Developer | Email Marketer | SEO | Ads Expert</p>
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Branqify</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#known-for">What We Do</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#signup">Sign Up</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <section class="hero">
-    <h2>Build. Launch. Scale. Repeat.</h2>
-    <p>I help brands design high-converting Shopify stores and scale with SEO, ads, emails, and reviews.</p>
-    <button id="bookCall">Book a Free Strategy Call</button>
-  </section>
-  <section id="services" class="services container">
-    <h2>What I Do</h2>
-    <div class="service-list">
-      <div class="service">
-        <img src="images/shopify-design.png" alt="Shopify Design">
-        <h3>Shopify Store Design & Development</h3>
-      </div>
-      <div class="service">
-        <img src="images/email-marketing.png" alt="Email Marketing">
-        <h3>Email Marketing & Automation (Klaviyo)</h3>
-      </div>
-      <div class="service">
-        <img src="images/seo.png" alt="SEO">
-        <h3>SEO for Shopify</h3>
-      </div>
-      <div class="service">
-        <img src="images/ads.png" alt="Ads">
-        <h3>Facebook, Google & TikTok Ads</h3>
-      </div>
-      <div class="service">
-        <img src="images/reviews.png" alt="Review Generation">
-        <h3>Product Reviews & UGC Generation</h3>
-      </div>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h2>Build. Launch. Scale.</h2>
+      <p>We help brands turn clicks into clients with high-converting Shopify stores and smart marketing.</p>
+      <a href="#signup" class="cta-btn">Join Our List</a>
     </div>
   </section>
-  <section id="portfolio" class="portfolio container">
-    <h2>Recent Projects</h2>
-    <div class="project">
-      <img src="images/project1.jpg" alt="Project 1">
-      <p>Project 1 – Beauty Brand</p>
-    </div>
-    <div class="project">
-      <img src="images/project2.jpg" alt="Project 2">
-      <p>Project 2 – Pet Supplies</p>
-    </div>
-    <div class="project">
-      <img src="images/project3.jpg" alt="Project 3">
-      <p>Project 3 – Fashion Dropshipping</p>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Branqify is your growth partner. From Shopify store design to marketing, branding, and real testimonials—we help you stand out and sell more.</p>
     </div>
   </section>
-  <section id="testimonials" class="testimonials container">
-    <h2>Client Testimonials</h2>
-    <div class="testimonial">
-      <img src="images/client1.jpg" alt="Client 1">
-      <p>"David took us from idea to $40k/month. Amazing!" – Anna, Skincare Brand</p>
-    </div>
-    <div class="testimonial">
-      <img src="images/client2.jpg" alt="Client 2">
-      <p>"The email flows he created gave us 30% extra revenue." – Josh, Gadget Store</p>
-    </div>
-    <div class="testimonial">
-      <img src="images/client3.jpg" alt="Client 3">
-      <p>"Professional, on-time, and results-driven." – Michael, Apparel Brand</p>
+
+  <section class="known-for" id="known-for">
+    <div class="container">
+      <h2>What We’re Known For</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>🔥 Branding & Design</h3>
+          <p>We give your brand a unique identity that speaks to your audience and builds trust.</p>
+        </div>
+        <div class="feature">
+          <h3>🛒 Shopify Setup</h3>
+          <p>Get a fast, beautiful, and converting store. Built for performance from day one.</p>
+        </div>
+        <div class="feature">
+          <h3>📩 Email Marketing</h3>
+          <p>Automate sales with targeted email campaigns and abandoned cart flows.</p>
+        </div>
+        <div class="feature">
+          <h3>📢 Ads & Promotions</h3>
+          <p>We run ads that actually convert—Facebook, Instagram, and Google.</p>
+        </div>
+      </div>
     </div>
   </section>
-  <section id="contact" class="contact container">
-    <h2>Get in Touch</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="How can I help you?" rows="5"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"Branqify completely transformed our store. We doubled our sales in one month!"</p>
+          <h4>– Sarah M., CEO of GlowFit</h4>
+        </div>
+        <div class="testimonial">
+          <p>"I finally have a brand that looks and feels premium. Highly recommended!"</p>
+          <h4>– Jamal A., Founder of TrendNest</h4>
+        </div>
+        <div class="testimonial">
+          <p>"The email flows they set up recovered over $1,000 in abandoned carts in 2 weeks!"</p>
+          <h4>– Rina L., Dropshipper</h4>
+        </div>
+      </div>
+    </div>
   </section>
-  <footer>
-    <p>© 2025 David eCom Studio | All rights reserved.</p>
+
+  <section class="signup" id="signup">
+    <div class="container">
+      <h2>Get Expert Tips & Offers</h2>
+      <p>Join our newsletter for branding insights, Shopify hacks, and exclusive offers.</p>
+      <form class="signup-form" action="#" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <p>© 2025 Branqify. All rights reserved.</p>
+      <p>Email: hello@branqify.com</p>
+    </div>
   </footer>
 </body>
 </html>
